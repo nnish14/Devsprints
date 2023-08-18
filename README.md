@@ -1,8 +1,6 @@
 # DevSprints
-# Sustainable Development Goals Web Development Project
 
-![UNSDGs](![image](https://github.com/nnish14/Devsprints/assets/121371298/50908f77-eaeb-4603-beaa-0850637590f7)
-) <!-- Add an image related to UNSDGs -->
+# Sustainable Development Goals Web Development Project
 
 ## Project Overview
 
@@ -27,7 +25,7 @@ This web development project is focused on promoting awareness and engagement wi
 
 1. Clone the repository: `git clone https://github.com/your-username/your-project.git`
 2. Navigate to the project directory: `cd your-project`
-3. Open `index.html` in your preferred web browser.
+3. Open `Dev.html` in your preferred web browser.
 
 ## Usage
 
@@ -45,10 +43,6 @@ Contributions are welcome! Here's how you can get involved:
 4. Push to the branch: `git push origin feature-new-feature`
 5. Open a pull request detailing your changes.
 
-## License
-
-This project is licensed under the [MIT License](link_to_your_license_file).
-
 ## Contact
 
-For questions or suggestions, please contact [your@email.com](mailto:your@email.com).
+For questions or suggestions, please contact [nnishchit48@gmail.com](mailto:nnishchit48@gmail.com).

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shapes Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('https://wallpapercave.com/wp/wp3122152.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* New styles for the sidebar navigation */
+        .sidebar {
+            width: 250px;
+            background-color: rgba(0, 0, 0, 0.8);
+            position: fixed;
+            top: 0;
+            left: -250px;
+            height: 100%;
+            overflow-y: auto;
+            transition: left 0.3s;
+        }
+
+        .open-sidebar {
+            left: 0;
+        }
+
+        /* Menu bar styles */
+        .menu-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 8px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu-links {
+            display: flex;
+            gap: 16px;
+        }
+
+        .menu-link {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .menu-link:hover {
+            color: #ccc;
+        }
+
+        /* Menu button style */
+        .menu-button {
+            padding: 4px 8px;
+            background-color: #3490dc;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .menu-button:hover {
+            background-color: #2779bd;
+        }
+    </style>
+</head>
+<body class="flex flex-col justify-between items-center">
+    <!-- Sidebar navigation -->
+    <div class="sidebar">
+        <a href="#" class="block text-white p-4 hover:bg-gray-600">Home</a>
+        <a href="http://127.0.0.1:5501/donation1.html" class="block text-white p-4 hover:bg-gray-600">Donations</a>
+        <a href="#" class="block text-white p-4 hover:bg-gray-600">About us</a>
+        <a href="#" class="block text-white p-4 hover:bg-gray-600">Contact Us</a>
+        <a href="#" class="block text-white p-4 hover:bg-gray-600">Help</a>
+    </div>
+
+    <!-- Menu bar -->
+    <div class="menu-bar">
+        <div class="menu-links">
+        </div>
+        <button class="menu-button" id="toggleSidebar">Menu</button>
+    </div>
+
+    <title>Shapes Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('https://wallpapercave.com/wp/wp3122152.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+    </style>
+    <style>
+        /* ... your existing styles ... */
+    
+        /* Tooltip styles */
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+    
+        .image-container:hover .tooltip {
+            opacity: 1;
+            transform: translate(-50%, -10px);
+        }
+    
+        .tooltip {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 8px;
+            border-radius: 4px;
+            width: 200px;
+            transition: opacity 0.3s, transform 0.3s;
+        }
+    </style>
+    
+</head>
+
+    <div class="bg-blue-900 p-4 text-white font-bold w-full text-center">
+        <!-- Header for UNSDG 14 -->
+        Conserve and sustainably use the oceans, seas and marine resources for sustainable development (UNSDG 14)
+    </div>
+    <div class="flex flex-col items-center mt-8">
+        <div class="bg-gray-800 bg-opacity-50  p-8 rounded-lg  text-center">
+            <h2 class="text-xl font-bold mb-4"><b>Hi I Am Ocean and I am Dying Help Me!</b></h2>
+            <p></p>
+        </div>
+        <head>
+            <title>Shapes Layout</title>
+            <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+            <style>
+                body {
+                    background-image: url('https://wallpapercave.com/wp/wp3122152.jpg'); /* Replace with your background image path */
+                    background-size: cover;
+                    background-position: center;
+                    height: 100vh;
+                }
+            </style>
+    
+                </div>
+                    <img src="https://maritimecyprus.com/wp-content/uploads/2021/02/Ocean-Pollution-affects-hum-1068x601.jpg" alt="Rectangle Image" class="w-full h-auto rounded-lg mb-4">
+                    <p></p>
+                </div>
+                
+                <div class="relative w-4/4 mt-8">
+                    <div class="bg-gradient-to-b from-blue-800 via-black to-blue-600 bg-opacity-80 w-full p-8 rounded-lg text-white text-center">
+                        <h3 class="text-lg font-bold mb-4">About Ocean</h3>
+                        <div class="image-container">
+                            <img src="https://adam1.scripts.mit.edu/blog/wp-content/uploads/2016/08/sunset-blue-ocean.jpg" alt="Rectangle Image" class="w-full h-auto rounded-lg mb-4">
+                            <div class="tooltip">
+                                <p>Ocean, The continuous body of salt water that is contained in enormous basins on Earth’s surface.</p>
+                                </div>
+                            <p>Ocean, The continuous body of salt water that is contained in enormous basins on Earth’s surface.</p>
+                            <p>When viewed from space, the predominance of Earth’s oceans is readily apparent. The oceans and their marginal seas cover nearly 71 percent of Earth’s surface, with an average depth of 3,688 metres (12,100 feet). The exposed land occupies the remaining 29 percent of the planetary surface and has a mean elevation of about 840 metres (approximately 2,755 feet). Actually, all the elevated land could be hidden under the oceans and Earth reduced to a smooth sphere that would be completely covered by a continuous layer of seawater more than 2,600 metres (8,530 feet) deep. This is known as the sphere depth of the oceans and serves to underscore the abundance of water on Earth’s surface.</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="relative w-4/4 mt-8">
+                   <div class="bg-gradient-to-b from-blue-800 via-black to-blue-600 bg-opacity-80 w-full p-8 rounded-lg text-white text-center">
+                        <h3 class="text-lg font-bold mb-4">Why Does I(The Ocean) Matter ?</h3>
+                        <img src="https://morawatersystems.com/wp-content/uploads/2015/06/Plastic-Sushi.jpg" alt="Rectangle Image" class="w-full h-auto rounded-lg mb-4">
+                        <p><b></b></p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="relative w-4/4 mt-8">
+                   <div class="bg-gradient-to-b from-blue-800 via-black to-blue-600 bg-opacity-80 w-full p-8 rounded-lg text-white text-center">
+                        <h3 class="text-lg font-bold mb-4">Humans & How We Impact the Ocean</h3>
+                        <img src="http://4.bp.blogspot.com/-bCnQgxMQR8o/UOeF_AGndXI/AAAAAAAAAIw/4OTrNWEseHk/s1600/mb.jpg" alt="Rectangle Image" class="w-full h-auto rounded-lg mb-4">
+                        <p>It ought to be hard for a species that occupies roughly 10% of the earth’s land to mess up 70% of the planet’s entire surface. Yet humans are well on the way to wrecking the oceans.
+                            From climate change and melting ice caps to islands of floating garbage, we are increasingly fouling what was once the perfectly, chemically, thermally balanced womb of all earthly life. The scope of potential loss is staggering:
+                            The oceans are the world’s largest ecosystem, home to 80% of the planet’s biodiversity, and account for more than 97% of its water. They produce nearly half the planet’s oxygen too. Lose the oceans and we lose everything.
+                            Here are five ways the oceans are ­suffering, with dire impacts for land ­dwellers, that need solutions.</p>
+                    </div>
+                </div>
+                <div class="relative w-4/4 mt-8">
+                   <div class="bg-gradient-to-b from-blue-800 via-black to-blue-600 bg-opacity-80 w-full p-8 rounded-lg text-white text-center">
+                        <h3 class="text-lg font-bold mb-4">How are Humans Hurting the Ocean?</h3>
+                        <img src="https://greentumble.com/wp-content/uploads/2015/08/Destructive-fishing-practices.jpg"alt="Rectangle Image" class="w-full h-auto rounded-lg mb-4">
+                        <p><b>Bad Catch</b></p>
+                        <p>Almost 80% of the world's marine fish stocks are now fully exploited, overexploited or depleted, according to the U.N. Food and Agriculture Organization. The implications for food security and global economies are enormous.</p>
+                    </div>
+                </div>
+                <div class="relative w-4/4 mt-8">
+                   <div class="bg-gradient-to-b from-blue-800 via-black to-blue-600 bg-opacity-80 w-full p-8 rounded-lg text-white text-center">
+                        <img src="https://time.com/wp-content/uploads/2019/01/oceans-in-peril-photos-davos-02.jpg?w=760" alt="Rectangle Image" class="w-full h-auto rounded-lg mb-4">
+                        <p><b>Boundary Issues</b></p>
+                        <p>Rising temperatures are remaking the map of the oceans. As polar ice retreats, the Northwest Passage could become an economically viable sea route. But consequences for pristine Arctic regions could be devastating. Increased shipping traffic could lead to more black carbon deposits on ice and snow, and higher risk of fuel leakage or spills. There’s also a risk of geopolitical tensions as nations race for control of faster shipping routes and untapped resources.</p>
+                    </div>
+                </div>
+                <div class="relative w-4/4 mt-8">
+                   <div class="bg-gradient-to-b from-blue-800 via-black to-blue-600 bg-opacity-80 w-full p-8 rounded-lg text-white text-center">
+                        <img src="https://www.pulseheadlines.com/wp-content/uploads/2015/07/global-warming1.jpg" alt="Rectangle Image" class="w-full h-auto rounded-lg mb-4">
+                        <p><b>Heating Up</b></p>
+                        <p>The world’s oceans are warming at a rate faster than previously estimated, according to a study in Science released in early January. Melting Arctic ice pours an estimated 14,000 tons of water every second into the earth’s oceans, making it the biggest contributor to rising seas. Antarctic warming is also a contributor. This iceberg calved off Antarctica, adding to rising sea levels as soon as it slipped off the land mass and began to float. Overall, according to NASA, seas are rising by around 3 mm each year.</p>
+                    </div>
+                </div>
+                <div class="relative w-4/4 mt-8">
+                   <div class="bg-gradient-to-b from-blue-800 via-black to-blue-600 bg-opacity-80 w-full p-8 rounded-lg text-white text-center">
+                        <img src="https://www.fairplanet.org/wp-content/uploads/2019/07/ocean-pollution-plastic.1567434951.jpg"alt="Rectangle Image" class="w-full h-auto rounded-lg mb-4">
+                        <p><b>Wasting Away</b></p>
+                        <p>Ocean pollution—including vast amounts of plastic waste that cannot break down—is particularly hazardous for marine wildlife. The image below shows the plastic trash found in the stomach of a single sea turtle found dead on the Pacific Coast.</p>
+                    </div>
+                </div>
+                <div class="relative w-4/4 mt-8">
+                   <div class="bg-gradient-to-b from-blue-800 via-black to-blue-600 bg-opacity-80 w-full p-8 rounded-lg text-white text-center">
+                        <img src="https://d1o50x50snmhul.cloudfront.net/wp-content/uploads/2017/03/06090028/etjban.jpg" alt="Rectangle Image" class="w-full h-auto rounded-lg mb-4">
+                        <p><b>Pollutants and Toxins</b></p>
+                        <p>Virtually all ocean habitats have been affected in some way by drilling or mining. Deadly oil spills from crashed tankards have made international news dozens of times. “Dredging for aggregates”, or materials such as concrete and steel, destructive anchoring, and removal of corals for things such as land reclamation are among the many ways human impact has worked negatively against the planet’s oceans.
+        
+                            Carbon emissions also contribute to climate change by causing ocean acidification and ocean warming by trapping greenhouse gases in the atmosphere, causing the earth and subsequently the oceans to heat up over time. 
+                            
+                            Chemical pollution is another way that human impact has hurt the ocean. Toxic waste from chemical spills or intentional dumping by factories and corporations has led to mass deaths of wildlife. In addition to this, detrimental effects on animals can be seen as animals ingest toxins — long term, this can lead to changes in reproduction cycles and evolutionary cycles that animals require to survive.</p>
+                    </div>
+                </div>
+                <div class="relative w-4/4 mt-8">
+                   <div class="bg-gradient-to-b from-blue-800 via-black to-blue-600 bg-opacity-80 w-full p-8 rounded-lg text-white text-center">
+                        <h3 class="text-lg font-bold mb-4">Major Threats to Ocean Life</h3>
+                        <img src="https://www.marineconservation.org.au/wp-content/uploads/2020/05/48818812646_e4c58c11d4_k-1.jpg" alt="Rectangle Image" class="w-full h-auto rounded-lg mb-4">
+                        <p>Fishing, though a crucial part of the global food supply and economy, is one of the largest and most destructive practices that affects the ocean. Certain fishing practices lead to overfishing the same species, like tuna or salmon. This does not include fishery practice where the fish are bred in captivity — this refers to wild caught fish, which are much harder to regulate and contain than fishery products. 
+        
+                            Wild catch fishing can damage the environment by dredging the seabed and catching other species not meant to be caught in nets. Dolphins and seals have been reeled in alongside tuna and this is not an uncommon occurrence. </p>
+                    </div>
+                </div>
+                <div class="relative w-4/4 mt-8">
+                   <div class="bg-gradient-to-b from-blue-800 via-black to-blue-600 bg-opacity-80 w-full p-8 rounded-lg text-white text-center">
+                        <h3 class="text-lg font-bold mb-4">How Can Humans Help the Ocean?</h3>
+                        <img src="https://fitnish.com/wp-content/uploads/2017/03/how-does-garbage-affect-the-environment_71ab3e64-a90c-47ad-b628-f6757f534e02.jpg" alt="Rectangle Image" class="w-full h-auto rounded-lg mb-4">
+                        <img src="https://i.pinimg.com/736x/a1/6b/18/a16b18691c0cc5c74ac4b904514e48b4.jpg" alt="Rectangle Image" class="w-full h-auto rounded-lg mb-4">
+                        <p>This all seems very grim and hopeless, yes. But there are still so many ways to help.
+        
+                            As always, recycle! Every piece of garbage that is repurposed instead of being thrown away is another piece of garbage saved from making its way to the ocean. Single use plastics like straws, q-tips, and plastic shopping bags are being banned globally in an attempt to prevent these harmful materials from polluting the ocean. 
+                            
+                            </p>
+                        <p>We can honor protected areas of the ocean and follow global laws that prevent swimming, boating, and fishing in certain areas. Even some sunscreens are being made now that are coral-safe, ensuring that the chemicals found in sunscreen and subsequently on swimmers’ bodies are not harming nearby reefs and wildlife. 
+        
+                                Investing in sustainable energy like solar power and hydroelectric power keeps oil rigs and drilling operations to a minimum in the ocean. Encouraging citizens to buy from local factories and creating closed circuit economies lessens the need for international boat traffic, and therefore there is less noise pollution created by the millions of boats that sit in the water at any given time.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- Inside the <div class="bg-gray-800 bg-opacity-50 p-8 rounded-lg text-center"> -->
+<div class="bg-blue-800 bg-opacity-50 p-8 rounded-lg text-center">
+    <h2 class="text-xl font-bold mb-4"><b></b></h2>
+    <img src="https://www.wedreamoftravel.com/wp-content/uploads/2021/03/Ocean-Quotes-3.jpg" alt="Ocean Image" class="w-full h-auto rounded-lg mb-4">
+    <p><b>THANK YOU</b></p>
+</div>
+
+
+    <script>
+        // JavaScript to handle sidebar toggle
+        const toggleButton = document.getElementById('toggleSidebar');
+        const sidebar = document.querySelector('.sidebar');
+
+        toggleButton.addEventListener('click', () => {
+            sidebar.classList.toggle('open-sidebar');
+        });
+    </script>
+</body>
+</html>
